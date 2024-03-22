@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0.6rem;
+    align-items: center;
+    font-family: Helvetica, sans-serif, Arial;
+    background-color: #000000;
+    background-image: url("img/bgc.png");
+    background-size: cover;
+}
+i {
+    color: blueviolet;
+}
+
+button {
+    background-color: blueviolet;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(100, 46, 180);
+}
